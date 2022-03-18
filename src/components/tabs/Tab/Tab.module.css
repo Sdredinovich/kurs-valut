@@ -1,0 +1,53 @@
+.tab{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 330px;
+    /* margin: 0 auto; */
+}
+
+.tab:hover{
+    transform: scale(1.01);
+}
+.charCode{
+    width: 100px;
+    border: 1px solid black;
+    height: 100%;
+    font-size: 18px;
+}
+.charCodeP{
+font-weight: 900
+}
+
+.value{
+    width: 120px;
+    border: 1px solid black;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 500;
+}
+.valueP{
+}
+.top{
+    color: green;
+}
+.add{
+    color: red;
+}
+.change{
+    width: 110px;
+    height: 100%;
+
+   font-weight: 500;
+    border: 1px solid black;
+
+}
+.span{
+    font-weight: 900;
+    font-size: 200px;
+}

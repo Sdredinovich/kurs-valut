@@ -1,0 +1,14 @@
+.App {
+  width: 1180px;
+  margin:  0 auto;
+  background-color: darkgray;
+  min-height: 500px;
+  text-align: center;
+}
+.content{
+  padding: 5px;
+}
+.header{
+  font-weight: 700;
+  font-size: 30px;
+}
