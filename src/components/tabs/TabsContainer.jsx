@@ -13,8 +13,6 @@ const TabsContainer = (props) => {
   });
 
   const prev = (valute) => {
-    //   console.log(information.PreviousURL);
-    //   console.log(valute);
     setPrevious({ ...previous, loading: true});
     let counter = 9;
     const prevValMass = [];
@@ -38,14 +36,6 @@ const TabsContainer = (props) => {
             loading: false,
             overflow: true
           });
-        //   console.log({
-        //     ...previous,
-        //     CharCode: valute.CharCode,
-        //     Name: valute.Name,
-        //     previousValue: [...prevValMass],
-        //     loading: false,
-          
-        //   });
         }
       });
     }

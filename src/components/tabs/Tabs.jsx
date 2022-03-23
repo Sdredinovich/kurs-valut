@@ -19,7 +19,7 @@ const Tabs = (props) => {
 {props.previous.overflow&&<div className={s.prevDiv}>
 
 
-<div><p>Курс валюты за последние 10 дней торгов</p>
+<div><p>Курс валюты за последние 10 рабочих дней</p>
   <p className={s.prevTitle}><span>{props.previous.CharCode}</span> ({props.previous.Name})</p>
   </div>
  {props.previous.previousValue.map(el=>{
